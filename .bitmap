@@ -25,5 +25,5 @@
         "mainFile": "index.ts",
         "rootDir": "instructions/react/adding-tests"
     },
-    "version": "1.0.70"
+    "version": "1.0.73"
 }
