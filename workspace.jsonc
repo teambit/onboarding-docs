@@ -27,20 +27,16 @@
       "teambit.mdx/mdx": {}
     },
     "instructions/react/adding-compositions": {
-      "defaultScope": "teambit.react",
-      "teambit.mdx/mdx": {}
+      "defaultScope": "teambit.react"
     },
     "instructions/react/adding-tests": {
-      "defaultScope": "teambit.react",
-      "teambit.mdx/mdx": {}
+      "defaultScope": "teambit.react"
     },
     "instructions/react/adding-docs": {
-      "defaultScope": "teambit.react",
-      "teambit.mdx/mdx": {}
+      "defaultScope": "teambit.react"
     },
     "instructions/exporting-components": {
-      "defaultScope": "teambit.component",
-      "teambit.mdx/mdx": {}
+      "defaultScope": "teambit.component"
     }
   }
 }
