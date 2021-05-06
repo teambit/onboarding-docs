@@ -24,15 +24,22 @@
   },
   "teambit.workspace/variants": {
     "*": {
-      "teambit.mdx/mdx": {}
+      "teambit.mdx/mdx": {},
+
+      "teambit.pkg/pkg": {
+        "packageManagerPublishArgs": ["--access public"],
+        "packageJson": {
+          "name": "@teambit/{scope}.{name}",
+          "private": false,
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/teambit/onboarding-docs"
+          },
+          "keywords": ["docs", "instructions", "onboarding"]
+        }
+      }
     },
-    "instructions/react/adding-compositions": {
-      "defaultScope": "teambit.react"
-    },
-    "instructions/react/adding-tests": {
-      "defaultScope": "teambit.react"
-    },
-    "instructions/react/adding-docs": {
+    "instructions/react": {
       "defaultScope": "teambit.react"
     },
     "instructions/exporting-components": {
