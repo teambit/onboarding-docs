@@ -19,23 +19,30 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": ["**/*.spec.ts"],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
     "strictPeerDependencies": true
   },
   "teambit.workspace/variants": {
     "*": {
       "teambit.mdx/mdx": {},
-
       "teambit.pkg/pkg": {
-        "packageManagerPublishArgs": ["--access public"],
+        "packageManagerPublishArgs": [
+          "--access public"
+        ],
         "packageJson": {
-          "name": "@teambit/{scope}.{name}",
+          "name": "@teambit/react.{name}",
           "private": false,
           "repository": {
             "type": "git",
             "url": "https://github.com/teambit/onboarding-docs"
           },
-          "keywords": ["docs", "instructions", "onboarding"]
+          "keywords": [
+            "docs",
+            "instructions",
+            "onboarding"
+          ]
         }
       }
     },
@@ -43,7 +50,25 @@
       "defaultScope": "teambit.react"
     },
     "instructions/exporting-components": {
-      "defaultScope": "teambit.component"
+      "defaultScope": "teambit.component",
+      "teambit.pkg/pkg": {
+        "packageManagerPublishArgs": [
+          "--access public"
+        ],
+        "packageJson": {
+          "name": "@teambit/component.{name}",
+          "private": false,
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/teambit/onboarding-docs"
+          },
+          "keywords": [
+            "docs",
+            "instructions",
+            "onboarding"
+          ]
+        }
+      }
     }
   }
 }
