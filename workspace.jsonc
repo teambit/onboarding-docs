@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
+  "teambit.workspace/workspace": {
+    "name": "onboarding-docs",
+    "icon": "https://static.bit.dev/bit-logo.svg",
+    "defaultDirectory": "{scope}/{name}",
+    "defaultScope": "teambit.react"
+  },
+  "teambit.dependencies/dependency-resolver": {
+    "packageManager": "teambit.dependencies/pnpm",
+    "policy": {
+      "dependencies": {
+        "@teambit/documenter.theme.theme-context": "3.0.9",
+        "@teambit/ui.mdx-layout": "0.0.357"
+      },
+      "peerDependencies": {
+        "react": "16.13.1",
+        "react-dom": "16.13.1"
+      }
+    },
+    "packageManagerArgs": [],
+    "devFilePatterns": ["**/*.spec.ts"],
+    "strictPeerDependencies": true
+  },
+  "teambit.workspace/variants": {
+    "*": {
+      "teambit.mdx/mdx": {}
+    },
+    "instructions/react/adding-compositions": {
+      "defaultScope": "teambit.react",
+      "teambit.mdx/mdx": {}
+    },
+    "instructions/react/adding-tests": {
+      "defaultScope": "teambit.react",
+      "teambit.mdx/mdx": {}
+    },
+    "instructions/react/adding-docs": {
+      "defaultScope": "teambit.react",
+      "teambit.mdx/mdx": {}
+    },
+    "instructions/exporting-components": {
+      "defaultScope": "teambit.component",
+      "teambit.mdx/mdx": {}
+    }
+  }
+}
