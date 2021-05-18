@@ -3,7 +3,7 @@
 {
     "instructions/exporting-components": {
         "scope": "teambit.component",
-        "version": "0.0.2",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "instructions/exporting-components"
     },
