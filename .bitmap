@@ -3,27 +3,27 @@
 {
     "instructions/exporting-components": {
         "scope": "teambit.component",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "instructions/exporting-components"
     },
     "instructions/react/adding-compositions": {
         "scope": "teambit.react",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "instructions/react/adding-compositions"
     },
     "instructions/react/adding-docs": {
         "scope": "teambit.react",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "instructions/react/adding-docs"
     },
     "instructions/react/adding-tests": {
         "scope": "teambit.react",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "instructions/react/adding-tests"
     },
-    "version": "1.0.73"
+    "version": "1.0.84"
 }
