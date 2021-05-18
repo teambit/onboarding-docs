@@ -28,7 +28,7 @@
       "teambit.pkg/pkg": {
         "packageManagerPublishArgs": ["--access public"],
         "packageJson": {
-          "name": "@teambit/react.{name}",
+          "name": "@teambit/{scope}.{name}",
           "private": false,
           "repository": {
             "type": "git",
@@ -42,19 +42,7 @@
       "defaultScope": "teambit.react"
     },
     "instructions/exporting-components": {
-      "defaultScope": "teambit.component",
-      "teambit.pkg/pkg": {
-        "packageManagerPublishArgs": ["--access public"],
-        "packageJson": {
-          "name": "@teambit/component.{name}",
-          "private": false,
-          "repository": {
-            "type": "git",
-            "url": "https://github.com/teambit/onboarding-docs"
-          },
-          "keywords": ["docs", "instructions", "onboarding"]
-        }
-      }
+      "defaultScope": "teambit.component"
     }
   }
 }
