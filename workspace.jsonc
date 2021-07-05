@@ -10,8 +10,8 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@teambit/documenter.theme.theme-context": "3.0.9",
-        "@teambit/ui.mdx-layout": "0.0.357"
+        "@teambit/documenter.theme.theme-context": "4.0.3",
+        "@teambit/mdx.ui.mdx-layout": "0.0.399"
       },
       "peerDependencies": {
         "react": "16.13.1",
